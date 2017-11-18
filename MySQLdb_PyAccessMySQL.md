@@ -1,3 +1,5 @@
+**2017-11-18: MySQLdb 已过时，不支持目前主流的 Python 3。**
+
 **环境**：MySQL 5.6.27, Ubuntu 15.10 64-bit
 
 个人笔记，可读性较差。寻教程请移步：[MySQL Python tutorial][1]
@@ -72,7 +74,7 @@ finally:
 ```
 
 ## 创建表，插入数据
- 
+
 ```python
 # coding: utf-8
 
@@ -155,7 +157,7 @@ with con:
     cur.execute('select * from writers limit 4')
 
     rows = cur.fetchall()
-        
+
     # 元组的元组，每一个元组对应一个结果列，元组的第一个元素为列名。
     desc = cur.description
 
