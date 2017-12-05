@@ -16,9 +16,6 @@ loop.call_later(1, do_some_work, 1)
 
 loop.run_forever()
 
-#  print("After run_forever")
-
-
 #  try:
     #  loop.stop()
 #  finally:
