@@ -454,7 +454,7 @@ s[5] = !
 用 `range` 也能达到目的：
 ```
 >>> for i in range(len(s)):
-...     print("s[{}] = {}".format(i, c))
+...     print("s[{}] = {}".format(i, s[i]))
 ```
 
 ### range
